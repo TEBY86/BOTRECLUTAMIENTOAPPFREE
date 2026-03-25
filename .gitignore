@@ -1,0 +1,39 @@
+# Dependencias
+node_modules/
+package-lock.json
+
+# Datos persistentes
+data/
+ejecutivos_guardados.json
+bot_state.json
+*.db
+*.sqlite
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+
+# Sesiones de WhatsApp
+.wwebjs_auth/
+.wwebjs_cache/
+session-*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+qrcode.png

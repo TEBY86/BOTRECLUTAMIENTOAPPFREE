@@ -1,0 +1,17 @@
+node_modules/
+npm-debug.log
+.env
+.env.local
+data/
+*.json
+!package.json
+.git/
+.gitignore
+README.md
+.vscode/
+.idea/
+.DS_Store
+*.log
+.wwebjs_auth/
+.wwebjs_cache/
+session-*
