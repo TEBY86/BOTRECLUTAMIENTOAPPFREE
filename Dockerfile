@@ -26,21 +26,19 @@ RUN apt-get update && apt-get install -y \
 
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium \
     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
-    NODE_ENV=production \
-    PORT=3000
+    NODE_ENV=production
 
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+# Solo copiar package.json (sin package-lock.json)
+COPY package.json ./
 
 RUN npm install
 
 COPY . .
 
-# Crear directorio para datos persistentes
 RUN mkdir -p /app/data
 
-# Exponer puerto
 EXPOSE 3000
 
 CMD ["node", "bot_unificado.js"]
