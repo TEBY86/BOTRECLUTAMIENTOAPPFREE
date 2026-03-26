@@ -46,7 +46,7 @@ const config = {
 
     // Archivos de bienvenida
     filesToSend: [
-        { path: './docs/entel_baner.png' },
+        { path: './docs/entel_baner.png',  caption: 'https://sites.google.com/view/wf-planes-entel/valores'},  
       //  { path: './docs/entel_condiciones.pdf', caption: '📄 ENTEL Hogar – Condiciones comerciales' },
        // { path: './docs/entel_foto_1.png', caption: 'https://sites.google.com/view/wf-planes-entel/valores' },
        // { path: './docs/entel_foto_1.png', caption: 'https://sites.google.com/view/wf-planes-entel/valores' },
