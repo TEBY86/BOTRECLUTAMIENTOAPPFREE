@@ -52,7 +52,7 @@ const config = {
        // { path: './docs/entel_foto_1.png', caption: 'https://sites.google.com/view/wf-planes-entel/valores' },
         { path: './docs/entel_foto_2.png', caption: '✨ cobertura' },
         { path: './docs/wom_baner.png' },
-        { path: './docs/wom_condiciones.png', caption: '📄 WOM Hogar – Condiciones comerciales' },
+        { path: './docs/wom_condiciones.jpg', caption: '📄 WOM Hogar – Condiciones comerciales' },
         { path: './docs/wom_comunas.jpg', caption: '🗺️ Comunas factibles WOM' },
         { path: './docs/wom_foto_1.png', caption: '📷 Promoción WOM 1' }
     ]
