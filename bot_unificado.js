@@ -39,6 +39,7 @@ const config = {
     links: {
         formulario: 'https://freeworkweb.cl/datosbank',
         ventas: 'https://www.freeworkweb.cl/descarga',
+        condicionesEntel: 'https://www.flipsnack.com/entelcatalogo/fav/full-view.html', // ← NUEVO LINK
     },
 
     contacto: '56912345678',
@@ -46,13 +47,14 @@ const config = {
     // Archivos de bienvenida
     filesToSend: [
         { path: './docs/entel_baner.png' },
-        { path: './docs/entel_condiciones.pdf', caption: '📄 ENTEL Hogar – Condiciones comerciales' },
-        { path: './docs/entel_foto_1.png', caption: 'https://sites.google.com/view/wf-planes-entel/valores' },
+      //  { path: './docs/entel_condiciones.pdf', caption: '📄 ENTEL Hogar – Condiciones comerciales' },
+       // { path: './docs/entel_foto_1.png', caption: 'https://sites.google.com/view/wf-planes-entel/valores' },
+       // { path: './docs/entel_foto_1.png', caption: 'https://sites.google.com/view/wf-planes-entel/valores' },
         { path: './docs/entel_foto_2.png', caption: '✨ cobertura' },
         { path: './docs/wom_baner.png' },
-        { path: './docs/wom_condiciones.pdf', caption: '📄 WOM Hogar – Condiciones comerciales' },
+        { path: './docs/wom_condiciones.png', caption: '📄 WOM Hogar – Condiciones comerciales' },
         { path: './docs/wom_comunas.jpg', caption: '🗺️ Comunas factibles WOM' },
-        { path: './docs/wom_foto_1.jpg', caption: '📷 Promoción WOM 1' }
+        { path: './docs/wom_foto_1.png', caption: '📷 Promoción WOM 1' }
     ]
 };
 
