@@ -46,7 +46,7 @@ const config = {
 
     // Archivos de bienvenida
     filesToSend: [
-        { path: './docs/entel_baner.png',  caption: 'https://sites.google.com/view/wf-planes-entel/valores'},  
+        { path: './docs/entel_baner.png',  caption: 'https://www.flipsnack.com/entelcatalogo/fav/full-view.html'},  
       //  { path: './docs/entel_condiciones.pdf', caption: '📄 ENTEL Hogar – Condiciones comerciales' },
        // { path: './docs/entel_foto_1.png', caption: 'https://sites.google.com/view/wf-planes-entel/valores' },
        // { path: './docs/entel_foto_1.png', caption: 'https://sites.google.com/view/wf-planes-entel/valores' },
@@ -108,6 +108,7 @@ async function handleUserFlow(client, chatId, messageBody, currentState, userSta
 
     // PASO 2: EXPLICACIÓN DETALLADA
     else if (currentState === 'awaiting_msg_2_reply') {
+        
         const respuesta = BotUtils.validateResponse(messageBody, ['SÍ', 'NO']);
 
         if (respuesta === 'SÍ') {
